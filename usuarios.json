@@ -1,0 +1,26 @@
+{
+    "Usuarios": {
+        "12345": {
+            "Nombres": "mariana alirio",
+            "Apellidos": "samtiago mariana",
+            "Telefono": 67
+        },
+        "123123": {
+            "Nombres": "anuel",
+            "Apellidos": "brr",
+            "Telefono": 777
+        }
+    },
+    "Administrador": {
+        "1029": {
+            "Nombres": "kevin anuel",
+            "Apellidos": "rincon romero",
+            "Telefono": 98
+        },
+        "9090": {
+            "Nombres": "maluma",
+            "Apellidos": "baby",
+            "Telefono": 1212
+        }
+    }
+}
