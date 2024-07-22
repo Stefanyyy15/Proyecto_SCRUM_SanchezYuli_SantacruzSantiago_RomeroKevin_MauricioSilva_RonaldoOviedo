@@ -1,10 +1,16 @@
 {
-    "celular": [
+    "tablet": [
         {
-            "marca": "Samsung",
-            "referencia": "A20",
-            "precio": 78000,
-            "cantidad": 2
+            "marca": "Sansung",
+            "referencia": "tabletssansung",
+            "precio": 65555,
+            "cantidad": 4
+        },
+        {
+            "marca": "Apple",
+            "referencia": "faifon",
+            "precio": 45666,
+            "cantidad": 8
         }
     ]
 }

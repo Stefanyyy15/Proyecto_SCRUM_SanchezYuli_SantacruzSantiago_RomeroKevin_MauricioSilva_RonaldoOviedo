@@ -65,6 +65,7 @@ def eliminar_usuario():
             if documento in bibli["Usuarios"]:
                  del bibli["Usuarios"][documento]
                  car.guardar(bibli)
+                 break
             else: 
                 print("No hay ningun ususario con esa cedula")
         except Exception:
@@ -78,6 +79,7 @@ def eliminar_admin():
             if documento in bibli["Administrador"]:
                  del bibli["Administrador"][documento]
                  car.guardar(bibli)
+                 break
             else: 
                 print("No hay ningun administrador con esa cedula")
         except Exception:
