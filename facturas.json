@@ -1,0 +1,14 @@
+[
+    {
+        "productos": {
+            "audifonos": [
+                {
+                    "referencia": "airpods",
+                    "precio": 89000,
+                    "cantidad": 3
+                }
+            ]
+        },
+        "total": 267000
+    }
+]

@@ -1,18 +1,10 @@
 {
-    "celulares": [
+    "audifonos": [
         {
-            "marca": "iphone",
-            "referencia": "14 pro",
-            "precio": 120000,
-            "cantidad": 5
-        }
-    ],
-    "pc": [
-        {
-            "marca": "dell",
-            "referencia": "z10",
-            "precio": 200000,
-            "cantidad": 5
+            "marca": "Samsung",
+            "referencia": "airpods",
+            "precio": 89000,
+            "cantidad": 2
         }
     ]
 }
