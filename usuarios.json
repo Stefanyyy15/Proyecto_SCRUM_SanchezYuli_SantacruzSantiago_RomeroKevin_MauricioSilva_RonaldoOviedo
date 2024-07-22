@@ -9,6 +9,11 @@
             "Nombres": "anuel",
             "Apellidos": "brr",
             "Telefono": 777
+        },
+        "1122": {
+            "Nombres": "santiago alirio",
+            "Apellidos": "filtrado",
+            "Telefono": 8989
         }
     },
     "Administrador": {

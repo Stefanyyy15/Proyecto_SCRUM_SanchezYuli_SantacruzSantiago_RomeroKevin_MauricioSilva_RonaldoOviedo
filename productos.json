@@ -1,9 +1,9 @@
 {
-    "audifonos": [
+    "celular": [
         {
             "marca": "Samsung",
-            "referencia": "airpods",
-            "precio": 89000,
+            "referencia": "A20",
+            "precio": 78000,
             "cantidad": 2
         }
     ]

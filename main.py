@@ -4,20 +4,25 @@ def menu_prin():
     for m in menu:
         print(m)
 
+def menu_pricipal():
+    try:
+        while True:
+            print("Bienvenido a Tritech")
+            menu_prin()
+            opcion = int(input("Elija una opcion: "))
+            if opcion == 1:
+                menu.entrada_jefe()
+            elif opcion ==2:
+                menu.entrada_admin()
+            elif opcion == 3:
+                menu.todo_usuario()
+            elif opcion == 4:
+                print("Saliendo...")
+                break
+            else:
+                print("Elija una opcion valida")
+    except Exception:
+        print("Algo salio mal intenta de nuevo")
 
-while True:
-    print("Bienvenido a Tritech")
-    menu_prin()
-    opcion = int(input("Elija una opcion: "))
-    if opcion == 1:
-        menu.entrada_jefe()
-    elif opcion ==2:
-        menu.entrada_admin()
-    elif opcion == 3:
-        menu.todo_usuario()
-    elif opcion == 4:
-        print("Saliendo...")
-        break
-    else:
-        print("Elija una opcion valida")
+menu_pricipal()
     

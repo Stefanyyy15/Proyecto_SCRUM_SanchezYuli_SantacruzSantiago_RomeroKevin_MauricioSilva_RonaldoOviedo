@@ -10,5 +10,29 @@
             ]
         },
         "total": 267000
+    },
+    {
+        "productos": {
+            "celular": [
+                {
+                    "referencia": "A20",
+                    "precio": 78000,
+                    "cantidad": 4
+                }
+            ]
+        },
+        "total": 312000
+    },
+    {
+        "productos": {
+            "celular": [
+                {
+                    "referencia": "A20",
+                    "precio": 78000,
+                    "cantidad": 2
+                }
+            ]
+        },
+        "total": 156000
     }
 ]
