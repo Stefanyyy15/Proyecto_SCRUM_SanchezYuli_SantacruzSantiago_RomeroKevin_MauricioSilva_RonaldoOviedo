@@ -3,7 +3,7 @@ import registrar_usuario
 import facturas
 
 def menu_jefe():
-    menu = ["1. Registrar Administrador", "2. Registrar Usuario", "3. Modificar Administrador", "4. Modificar Ususario" ]
+    menu = ["1. Registrar Administrador", "2. Registrar Usuario", "3. Modificar Administrador", "4. Modificar Ususario", "5. Eliminar Administrador", "6. Eliminar usuario", "7. Salir" ]
     for m in menu:
         print(m)
 
@@ -26,6 +26,10 @@ def entrada_jefe():
             elif num ==4:
                 registrar_usuario.edit_usuarios()
             elif num ==5:
+                admin.eliminar_admin()
+            elif num ==6:
+                admin.eliminar_usuario()
+            elif num ==7:
                 print("Saliendo...")
                 break
             else:
@@ -35,7 +39,7 @@ def entrada_jefe():
 
 
 def menu_admin():
-    menu = ["1. Registrar ususario", "2. Modificar Usuario", "3. Modificar Administrador", "4. Registrar productos", "5. Eliminar electrodomestico","6. Eleminar referencia" , "7. Actualizar producto", "8. Consultar facturas", "9. Salir"]
+    menu = ["1. Registrar ususario", "2. Modificar Usuario", "3. Modificar Administrador", "4. Registrar productos", "5. Eliminar electrodomestico","6. Eleminar referencia" , "7. Actualizar producto", "8. Consultar facturas", "9. eliminar usuario", "10. Salir"]
     for m in menu:
         print(m)
 
@@ -61,6 +65,8 @@ def entrada_admin():
         elif op == 8:
             facturas.consultar_facturas()
         elif op == 9:
+            admin.eliminar_usuario()
+        elif op == 10:
             print("Saliedo...")
             break
         else:

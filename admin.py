@@ -57,3 +57,29 @@ def edit_admin():
                     print("Porfavor ingrese sus datos bien, algo salio mal")
 
 #edit_admin()
+def eliminar_usuario():
+    while True:
+        try:
+            bibli = car.cargar()
+            documento = input("Digite la cedula del usuario que desea eliminar: ")
+            if documento in bibli["Usuarios"]:
+                 del bibli["Usuarios"][documento]
+                 car.guardar(bibli)
+            else: 
+                print("No hay ningun ususario con esa cedula")
+        except Exception:
+             print("Porfavor ingrese los datos bien, algo salio mal")
+eliminar_usuario()
+
+def eliminar_admin():
+    while True:
+        try:
+            bibli = car.cargar()
+            documento = input("Digite la cedula del administrador que desea eliminar: ")
+            if documento in bibli["Administrador"]:
+                 del bibli["Administrador"][documento]
+                 car.guardar(bibli)
+            else: 
+                print("No hay ningun administrador con esa cedula")
+        except Exception:
+             print("Porfavor ingrese los datos bien, algo salio mal")
