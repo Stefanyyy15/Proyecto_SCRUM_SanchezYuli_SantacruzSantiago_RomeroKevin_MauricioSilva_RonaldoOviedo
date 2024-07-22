@@ -1,11 +1,12 @@
 import cargar_guardar as car
-
+import menu
 def ingreso_usuario():
         try:
             bibli = car.cargar()
             documento = int(input("Digite su cedula: "))
             if str(documento) in bibli["Usuarios"]:
-                print("Bienvenido Administrador", bibli["Usuarios"][str(documento)]["Nombres"])
+                print("Bienvenido Usuario", bibli["Usuarios"][str(documento)]["Nombres"])
+                menu.entrada_usuario()
             else:
                 print("Contraseña incorrecta")
         except Exception:

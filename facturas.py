@@ -356,4 +356,4 @@ def menu_principal():
         else:
             print("Opción no válida")
 
-menu_principal()
+#menu_principal()
