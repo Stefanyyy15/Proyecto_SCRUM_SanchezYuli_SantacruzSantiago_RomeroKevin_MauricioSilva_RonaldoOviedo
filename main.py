@@ -17,6 +17,7 @@ while True:
         menu.todo_usuario()
     elif opcion == 4:
         print("Saliendo...")
+        break
     else:
         print("Elija una opcion valida")
     

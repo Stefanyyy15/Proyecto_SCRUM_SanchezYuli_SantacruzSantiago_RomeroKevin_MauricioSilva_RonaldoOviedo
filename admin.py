@@ -69,7 +69,6 @@ def eliminar_usuario():
                 print("No hay ningun ususario con esa cedula")
         except Exception:
              print("Porfavor ingrese los datos bien, algo salio mal")
-eliminar_usuario()
 
 def eliminar_admin():
     while True:
