@@ -15,3 +15,6 @@ Para instalar el proyecto, sigue estos pasos:
 1. Clona este repositorio en tu máquina local.
    ```bash
    git clone https://github.com/Stefanyyy15/Proyecto_SCRUM_SanchezYuli_SantacruzSantiago_RomeroKevin_MauricioSilva_RonaldoOviedo/edit/main
+
+2. Documentacion
+   https://docs.google.com/document/d/14DsewvxS_pfoJcJj84KTM_Qr0P8DIstC/edit?usp=sharing&ouid=110158891760736851615&rtpof=true&sd=true
