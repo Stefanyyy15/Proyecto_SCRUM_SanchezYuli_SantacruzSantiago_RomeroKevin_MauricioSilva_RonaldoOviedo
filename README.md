@@ -21,6 +21,9 @@ Tritech es un software de tienda diseñado para gestionar perfiles de clientes y
 git clone https://github.com/tu_usuario/tritech.git
 cd tritech
 ```
+## Uso
+>El programa debe ejecutarse desde main.py
+
 **Documentación**
 https://docs.google.com/document/d/14DsewvxS_pfoJcJj84KTM_Qr0P8DIstC/edit?usp=sharing&ouid=110158891760736851615&rtpof=true&sd=true
 ## Contribuir
