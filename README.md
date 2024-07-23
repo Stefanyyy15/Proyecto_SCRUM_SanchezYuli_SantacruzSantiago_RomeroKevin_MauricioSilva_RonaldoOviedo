@@ -1,20 +1,41 @@
-Tritech
+# Tritech Store Software
 
-Tritech es un software de gestión de tiendas que incluye las siguientes funcionalidades:
+Tritech es un software de tienda diseñado para gestionar perfiles de clientes y administradores, manejar productos, y realizar compras. Este README proporciona una guía sobre cómo instalar y contribuir al proyecto.
 
-- **Registro de usuarios**: Permite a los nuevos usuarios registrarse en el sistema.
-- **Inicio de sesión**: Permite a los usuarios registrados iniciar sesión.
-- **Gestión de inventario**: Permite a los administradores gestionar el inventario de productos.
-- **Carrito de compras**: Permite a los usuarios agregar productos a un carrito de compras.
-- **Facturación**: Genera facturas para las compras realizadas.
+## Características
+
+-   Registrar perfil de cliente
+-   Eliminar perfil de cliente
+-   Modificar información del perfil de cliente
+-   Registrar perfil de administrador
+-   Mostrar perfil
+-   Eliminar productos
+-   Mostrar lista de productos
+-   Agregar productos al carrito
+-   Ver y modificar carrito
+-   Generar una orden de compra
 
 ## Instalación
 
-Para instalar el proyecto, sigue estos pasos:
+```bash
+git clone https://github.com/tu_usuario/tritech.git
+cd tritech
+```
+**Documentación**
+https://docs.google.com/document/d/14DsewvxS_pfoJcJj84KTM_Qr0P8DIstC/edit?usp=sharing&ouid=110158891760736851615&rtpof=true&sd=true
+## Contribuir
 
-1. Clona este repositorio en tu máquina local.
-   ```bash
-   git clone https://github.com/Stefanyyy15/Proyecto_SCRUM_SanchezYuli_SantacruzSantiago_RomeroKevin_MauricioSilva_RonaldoOviedo/edit/main
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+_Puedes contribuir creando un fork del repositorio y enviando un pull request._
+   | Tipo de contribución | Aceptado | Comentarios |
+   |:---------------------|:--------:|------------:|
+   | Reporte de errores   | Sí       | Utiliza la sección de issues en GitHub |
+   | Nuevas características| Sí      | Envía un pull request con tus propuestas |
 
-2. Documentacion
-   https://docs.google.com/document/d/14DsewvxS_pfoJcJj84KTM_Qr0P8DIstC/edit?usp=sharing&ouid=110158891760736851615&rtpof=true&sd=true
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. 
+>La Licencia MIT es una licencia de software libre permisiva que es ampliamente utilizada en la comunidad de software
+## Contacto
+
+Para más información o preguntas, por favor contacta a yuli.estefani.s15gmail.com
