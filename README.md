@@ -13,8 +13,8 @@ Tritech es un software de tienda diseñado para gestionar perfiles de clientes y
 |  6|Contacto|
 ## Instalación
 ```bash
-git clone https://github.com/tu_usuario/tritech.git
-cd tritech
+git clone https://github.com/tu_usuario/tritech.git](https://github.com/Stefanyyy15/Proyecto_SCRUM_SanchezYuli_SantacruzSantiago_RomeroKevin_MauricioSilva_RonaldoOviedo.git
+cd main
 ```
 ## Uso
 >El programa debe ejecutarse desde main.py
